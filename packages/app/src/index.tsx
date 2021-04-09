@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import tw from 'twin.macro';
 
 function App() {
-    return <div>test</div>;
+    return <div css={tw`p-5`}>test</div>;
 }
 
 ReactDOM.render(
