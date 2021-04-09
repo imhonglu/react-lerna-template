@@ -18,6 +18,7 @@ export function Button({
             {...props}
             css={[
                 css`
+                    margin: 0;
                     padding: 0.5rem 2rem;
                     border: 1px solid;
                     border-radius: 0.25rem;

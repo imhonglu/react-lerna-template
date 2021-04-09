@@ -1,9 +1,14 @@
+import { GlobalStyles } from '@mono/design-system';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import tw from 'twin.macro';
 
 function App() {
-    return <div css={tw`p-5`}>test</div>;
+    return (
+        <GlobalStyles>
+            <main css={tw`p-5`}>Welcome react-lerna-template!</main>
+        </GlobalStyles>
+    );
 }
 
 ReactDOM.render(
