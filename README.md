@@ -8,9 +8,10 @@
 - Lerna
 ---
 - Snowpack
-- Emotion
 - React
 - Storybook
+- Emotion
+- TailwindCSS(tailwind.macro)
 ---
 - Prettier
 - Eslint
