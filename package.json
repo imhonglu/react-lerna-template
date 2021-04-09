@@ -22,6 +22,7 @@
         "@types/react-dom": "^17.0.3",
         "@types/snowpack-env": "^2.3.3",
         "babel-loader": "^8.2.2",
+        "babel-plugin-macros": "^3.0.1",
         "eslint": "^7.23.0",
         "eslint-config-airbnb-typescript-prettier": "^4.2.0",
         "eslint-plugin-simple-import-sort": "^7.0.0",
@@ -38,6 +39,7 @@
         "stylelint": "^13.12.0",
         "stylelint-config-property-sort-order-smacss": "^7.0.0",
         "stylelint-order": "^4.1.0",
+        "twin.macro": "^2.3.2",
         "typescript": "^4.2.4"
     },
     "scripts": {
