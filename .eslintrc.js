@@ -14,6 +14,7 @@ module.exports = {
     rules: {
         // 취향대로 변경하세요.
         'import/extensions': 0,
+        'import/no-extraneous-dependencies': 0,
         'import/no-unresolved': 0,
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
