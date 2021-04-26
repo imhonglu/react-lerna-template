@@ -8,7 +8,7 @@
     },
     "scripts": {
         "storybook": "start-storybook --docs --no-manager-cache -p 6006 ",
-        "build-storybook": "build-storybook"
+        "build": "build-storybook -o dist"
     },
     "license": "MIT"
 }
